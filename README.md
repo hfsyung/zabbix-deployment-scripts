@@ -6,8 +6,8 @@ git clone https://github.com/hfsyung/zabbix-deployment-scripts.git
 
 # Make Your Scripts Executable:
 cd zabbix-deployment-scripts
-chmod +x deploy_zabbix.sh deploy_proxy.sh
+chmod +x zabbix_server_deploy.sh zabbix_proxy_deploy.sh
 
 # Run either *.sh
-sudo ./deploy_zabbix.sh # to install server
-sudo ./deploy_proxy.sh # to install proxy
+sudo ./zabbix_server_deploy.sh # to install server
+sudo ./zabbix_proxy_deploy.sh # to install proxy
