@@ -9,5 +9,5 @@ cd zabbix-deployment-scripts
 chmod +x zabbix_server_deploy.sh zabbix_proxy_deploy.sh
 
 # Run either *.sh
-sudo ./zabbix_server_deploy.sh # to install server
-sudo ./zabbix_proxy_deploy.sh # to install proxy
+sudo ./zabbix_server_deploy.sh 
+sudo ./zabbix_proxy_deploy.sh 
